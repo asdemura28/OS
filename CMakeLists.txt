@@ -1,2 +1,2 @@
-PROJECT(timeLogging)
-ADD_EXECUTABLE(timeLogging my_shmem.hpp timeLogging.cpp)
+PROJECT(usbTemperature)
+ADD_EXECUTABLE(usbTemperature my_serial.hpp usbTemperature.cpp)
