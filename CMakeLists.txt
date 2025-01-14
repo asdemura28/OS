@@ -1,2 +1,2 @@
 PROJECT(timeLogging)
-ADD_EXECUTABLE(timeLogging my_shmem.hpp timeLogging.cpp)
+ADD_EXECUTABLE(timeLogging source/my_shmem.hpp source/timeLogging.cpp)

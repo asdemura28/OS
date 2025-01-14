@@ -119,8 +119,8 @@ void makeCopy(const std::string& copyName) {
 	ZeroMemory( &si, sizeof(si) );
 	ZeroMemory( &pi, sizeof(pi) );
 
-	if (CreateProcess(EXE_NAME.c_str(),
-                      copyName.c_str(),
+	if (CreateProcess(EXE_NAME,
+					(LPSTR)copyName.c_str(),
                       NULL,
                       NULL,
                       FALSE,
