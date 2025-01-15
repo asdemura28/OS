@@ -15,6 +15,8 @@ std::mutex mtx;
 
 #define EXE_NAME "timeLogging.exe"
 #define MEMO_TEXT "Init memo"
+#define PROG_NAME "./timeLogging"
+
 struct my_data
 {
 	my_data() {
@@ -147,7 +149,7 @@ void makeCopy(const std::string& copyName) {
     }
 
     if (pid == 0) {
-        system((EXE_NAME + " " + copyName).c_str());
+        system((std::string(PROG_NAME) + " " + copyName).c_str());
         exit(EXIT_SUCCESS);
     }
 #endif
