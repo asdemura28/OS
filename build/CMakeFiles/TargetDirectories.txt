@@ -1,7 +1,0 @@
-C:/OS-labs/burger/OS/build/CMakeFiles/usbTemperatureWriter.dir
-C:/OS-labs/burger/OS/build/CMakeFiles/usbTemperatureReader.dir
-C:/OS-labs/burger/OS/build/CMakeFiles/edit_cache.dir
-C:/OS-labs/burger/OS/build/CMakeFiles/rebuild_cache.dir
-C:/OS-labs/burger/OS/build/sqlite/CMakeFiles/sqlite.dir
-C:/OS-labs/burger/OS/build/sqlite/CMakeFiles/edit_cache.dir
-C:/OS-labs/burger/OS/build/sqlite/CMakeFiles/rebuild_cache.dir
