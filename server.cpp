@@ -1,4 +1,13 @@
+#ifdef _WIN32
 #include "server.h"
+#include <cstring>
+#else
+#include "server.h"
+#include <cstring>
+#include <poll.h>
+#include <pthread.h>
+#include <dlfcn.h>
+#endif
 
 TemperatureServer::TemperatureServer(DatabaseManager* dbManager) {
     this->dbManager = dbManager;

@@ -2,6 +2,7 @@
 #include "server.h"
 #include "my_serial.hpp"
 #include "temperatureStorage.hpp"
+#include "signal.h"
 
 
 bool isIntNumber(std::string& str) {
